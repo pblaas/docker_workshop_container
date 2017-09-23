@@ -1,4 +1,4 @@
-FROM NGINX
+FROM nginx
 
 CMD rm -rvf /usr/share/nginx/html
 ADD src/ /usr/share/nginx
